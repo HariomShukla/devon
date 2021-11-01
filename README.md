@@ -31,12 +31,15 @@ Should use the endpoint created in step 1.
 ### Installing & Executing
 
 * git clone https://github.com/HariomShukla/devon.git
-* npm run dev // to adopt fronend changes
+* npm run dev                   // to adopt fronend changes
 * php artisan migrate
-* php artisan db:seed // to create admin and generic user in db
+* php artisan db:seed           // to create admin and generic user in db
 * add below keys and values in env
-    API_URL= // your vhost domain or ip to access the application
+    
+    API_URL=                //your vhost domain or ip to access the application
+    
     API_USER=admin@devon.com
+    
     API_PASSWORD=password
 * 
 
